@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Penjualan Barang</title>
+    <link rel="stylesheet" href="global.css" />
+    <script language="Javascript">
+      function cariBarang() {
+        var kode = document.kirim.kodeBarang.value;
+        if (kode === "A001") {
+          document.kirim.namaBarang.value = 'Televisi Samsung 50"';
+          document.kirim.hargaBarang.value = 5000000;
+        } else if (kode === "A002") {
+          document.kirim.namaBarang.value = "VCD Player Sony";
+          document.kirim.hargaBarang.value = 750000;
+        } else if (kode === "A003") {
+          document.kirim.namaBarang.value = "Mini Compo";
+          document.kirim.hargaBarang.value = 2300000;
+        } else {
+          document.kirim.namaBarang.value = "";
+          document.kirim.hargaBarang.value = "";
+        }
+      }
+
+      function hitungTotal() {
+        var harga = parseInt(document.kirim.hargaBarang.value);
+        var jumlah = parseInt(document.kirim.jumlahBarang.value);
+        var totalHarga = harga * jumlah;
+        var diskon = 0;
+
+        if (jumlah > 10) {
+          diskon = 0.12 * totalHarga;
+        }
+
+        var totalBayar = totalHarga - diskon;
+
+        document.kirim.totalHarga.value = totalHarga;
+        document.kirim.totalDiskon.value = diskon;
+        document.kirim.totalBayar.value = totalBayar;
+      }
+
+      function cetak() {
+        window.print();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="judul">
+      <h1>FORM PENJUALAN BARANG</h1>
+    </div>
+  <form method="POST" name="kirim">
+      <table>
+        <tr>
+          <td><label for="kodeBarang">Kode Barang</label></td>
+          <td>
+            <input type="text" name="kodeBarang" id="kodeBarang" size="13" />
+            <input type="button" value="Cari" onclick="cariBarang()" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label for="namaBarang">Nama Barang</label></td>
+          <td>
+            <input
+              type="text"
+              name="namaBarang"
+              id="namaBarang"
+              size="30"
+              readonly />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hargaBarang">Harga Barang</label></td>
+          <td>
+            <input
+              type="text"
+              name="hargaBarang"
+              id="hargaBarang"
+              size="10"
+              readonly />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jumlahBarang">Jumlah Barang</label></td>
+          <td>
+            <input type="text" name="jumlahBarang" id="jumlahBarang" size="5" />
+            <input type="button" id="hitung" value="Hitung" onclick="hitungTotal()" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label for="totalHarga">Total Harga</label></td>
+          <td>
+            <input
+              type="text"
+              name="totalHarga"
+              id="totalHarga"
+              size="20"
+              readonly />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="totalDiskon">Diskon</label></td>
+          <td>
+            <input
+              type="text"
+              name="totalDiskon"
+              id="totalDiskon"
+              size="20"
+              readonly />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="totalBayar">Total Bayar</label></td>
+          <td>
+            <input
+              type="text"
+              name="totalBayar"
+              id="totalBayar"
+              size="20"
+              readonly />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="button" value="Cetak" onclick="cetak()" /></td>
+          <td></td>
+        </tr>
+      </table>
+    </form>
+  
+  </body>
+</html>

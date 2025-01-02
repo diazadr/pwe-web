@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 15;
+    
+}
+
+.content-bg {
+    background-color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+a {
+    font-family: 'Arial Narrow', sans-serif;
+    text-decoration: none;
+    color: #013880;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-bg {
+    background-color:#013880;;
+}
+
+
+.judul {
+    background-color: #013880;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10pt;
+    padding: 0 20px;
+    margin: 0;
+}

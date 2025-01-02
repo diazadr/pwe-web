@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial Narrow', sans-serif;
+    background-color: blue;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.content-bg {
+    background-color: white;
+}
+
+.menu-right-bg {
+    background-color: maroon;
+}
+
+a {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    line-height: 1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-bg {
+    background-color: blue;
+}
+
+.judul {
+    font-size: 36pt;
+    color: white;
+    font-weight: bold;
+}
+
+.subjudul {
+    font-size: 16pt;
+    color: yellow;
+}
+
