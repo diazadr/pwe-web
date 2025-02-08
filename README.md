@@ -1,10 +1,18 @@
 # Web Programming Assignment
 
-This project is created for the Web Programming course. It includes learning materials about HTML, CSS, JavaScript, PHP, and MySQL.
+This project is created for the **Web Programming** course. It includes learning materials about **HTML, CSS, JavaScript, PHP, and MySQL**.
 
----
+## **Technologies Used**
+- **HTML**: For structuring the web pages.
+- **CSS**: For styling and layout design.
+- **JavaScript**: For adding interactivity and dynamic content.
+- **PHP**: For server-side scripting and backend functionality.
+- **MySQL**: For database management and storage.
 
-## Demo
+## **Demo**
+
+### **Screenshots**
+Below are some screenshots of the project:
 
 <img src="https://github.com/user-attachments/assets/0e36fa2e-0e7b-4649-8215-a20e0a646d76" alt="Screenshot 1" width="600">
 <img src="https://github.com/user-attachments/assets/bc9edebd-2e7c-4e72-8d57-3f8c0170e1bb" alt="Screenshot 2" width="600">
@@ -15,23 +23,17 @@ This project is created for the Web Programming course. It includes learning mat
 <img src="https://github.com/user-attachments/assets/72ac94fb-b769-4891-a87b-1f08a8f74ad2" alt="Screenshot 7" width="600">
 <img src="https://github.com/user-attachments/assets/488cca9f-7fab-4006-8740-9da4d1e9c0d5" alt="Screenshot 8" width="600">
 
----
+## **Usage**
+1. Clone the repository to your local machine.
+2. Open the project folder using a code editor.
+3. Use a local server (e.g., XAMPP) or a Live Server extension to run the project.
+4. Explore the learning materials and examples provided in the project.
 
-## How to Run
+## **Project Status**
+This project is **completed** and was created for educational purposes as part of the **Web Programming** course.
 
-Follow these steps to run the project:
+## **License**
+This project is created for educational purposes and does not require a license. However, feel free to use and modify the code as needed.
 
-1. **Clone this repository** and open the project folder:
-
-    ```sh
-    git clone <repository_url>
-    cd project_folder
-    ```
-
-2. **Run the project** using a local server (e.g., XAMPP) or a Live Server extension in your code editor.
-
----
-
-## License
-
-This project is created for educational purposes as part of the Web Programming course.
+## **Contributions**
+Feel free to submit issues or contribute by creating pull requests. Contributions are welcome!
