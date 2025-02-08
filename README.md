@@ -1,5 +1,7 @@
 # Web Programming Assignment
 
+![Project Status](https://img.shields.io/badge/status-completed-brightgreen)  [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+
 This project is created for the **Web Programming** course. It includes learning materials about **HTML, CSS, JavaScript, PHP, and MySQL**.
 
 ## **Technologies Used**
@@ -32,8 +34,8 @@ Below are some screenshots of the project:
 ## **Project Status**
 This project is **completed** and was created for educational purposes as part of the **Web Programming** course.
 
-## **License**
-This project is created for educational purposes and does not require a license. However, feel free to use and modify the code as needed.
-
 ## **Contributions**
 Feel free to submit issues or contribute by creating pull requests. Contributions are welcome!
+
+## **License**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
